@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
 
     <title>replit</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
@@ -29,242 +29,477 @@
         <div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li><a href="#about-me">about me.</a></li>
-              <li><a href="#connect">connect!</a></li>
-              <li><a href="#projects">portfolio.</a></li>
+              <li><a href="#dom-mod">dom mod</a></li>
+              <li><a href="#animations">animations</a></li>
+              <li><a href="#library">js library</a></li>
+              <!-- <li><a href="#section3">Section 3</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#section41">Section 4-1</a></li>
+                  <li><a href="#section42">Section 4-2</a></li>
+                </ul>
+              </li> -->
             </ul>
           </div>
         </div>
       </div>
     </nav>    
 
-    <div class="container">
-    <div class="row">
-
-      <div class="col-lg-3">
+    <div class="col-lg-2">
       </div>
+    <div class="col-lg-8">
+      <div class="share" id = 'home'>
+        <a href="https://awesome-animated-ray.glitch.me">html</a>
+        <a href="https://universal-powerful-pet.glitch.me">css</a>
+        <a href="https://exultant-sleet-radio.glitch.me/">bootstrap</a>
+      </div> <br> <br> <br> <br>
 
-      <div class="col-lg-6">
-
-        <div class = "back">
-          <a href = "#start"> top </a>
-        </div>
-
-        <br><br><br><br><br><br><br>
-
-        <section id = start>
-          <br><br><br><br><br><br><br><br><br><br>
-          <h1 id="title"><span id = "title2">say hi. </span>ㅤ</h1> <br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br>
-        </section>
-
-        <section id = about-me>
-          <div class="hideme">
-            <br><br><br><br><br><br><br><br>
-            <h3> ABOUT ME. </h3> <br><br>
-              <p>
-                <img src="https://pbs.twimg.com/media/Ee-ReCXXoAE53HT.jpg" alt="what i look like" id = me>
-                Hi! My name is Ada Wang and I'm a first year Software Engineering student at the University of Waterloo. I am a sucker for creating design and management based projects, such as websites, games, and data structures, where I am able to optimize visual aesthetics and utility functionalities at the same time. <br> <br>
-
-                LALALA MORE STUFF LALALA
-              </p><br><br><br><br><br><br><br><br><br><br>
-
-            <br><br><br><br>
-          </div>
-        </section>
+      <div class = "back">
+        <a href = "#home"> top </a>
       </div>
-    </div>
-    </div>
+      <section id = start>
+        <h1 id = "title"><span id = "title2">javascript web development. </span> . </h1>
+          <p>
+            Thank you, Khan Academy, for this amazing course! <br>
+          </p> <br><br><br>
+      </section>
 
-    <section id = connect>
-      <div class="hideme">
-        <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <h3> FIND OUT MORE ABOUT ME HERE! </h3> <br><br><br><br><br>
-          </div>
-        </div>
-        </div>
+      <section id = table-of-contents>
+        <h3 id = "table"> table of contents. </h3>
+          <ul>
+            <a href = "#dom-mod"> <li> dom modifications. </li> </a>
+            <a href = "#animations"> <li> animations. </li> </a> 
+            <a href = "#library"> <li> js library </li> </a>
+          </ul>
+      </section>
 
-      <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-        </div>
+      <section id = dom-mod>
+        <h3> dom modifications. </h3>
+          <p>
+            To add javascript funtionality in your html/css code, add the tag <code>script</code> at the <strong>end</strong> of your html code, right before the body end tag. <br> <br>
 
-        <div class="col-lg-2">
-          <a href="https://github.com/adabingw"> <i class="fa fa-github"> <p class = "work"> Github </p>  </i> </a> <br>
-        
-        </div>
-        
-        <div class="col-lg-2">
-          <a href="https://www.linkedin.com/in/ada-wang-832941210/"> <i class="fa fa-linkedin"> <p class = "work"> Linkedin </p> </i> </a> <br>
-        </div>
-        
-        <div class="col-lg-2">
-          <a href="#"><span class="fa fa-bookmark"> <p class = "work"> Resume </p> </span></a>  <br>       
-        </div>
-        
-        <div class="col-lg-3">
-        </div>
+            You can choose to write your js code in the html document, or write it in a separate .js document. If you wanna do the latter, <code>src</code> your .js document, like so: <br> <br>
+              <pre>
 
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      </div>
-      </div>
-      </div>
-    </section>
+                &lt;script src = "script.js">
 
-      <div>
-        <section id = projects>
-        <div class="hideme">
-          <div class="container">
-          <div class="row">
-            <div class="col-lg-2">
-            </div>
+                &lt;/script>
+              </pre>  <br>
+            We can access html using javascript by referencing it! If you do this: <br> <br>
+              <pre>
 
-            <div class="col-lg-8"> 
-              <br><br><br><br>
-            <h3 class = "bored"> PORTFOLIO </h3>
-            </div>
-            
-            <div class="col-lg-2">
-            </div>
-          </div>
-          </div>
-        </div>
+                document.body.innerHTML = "hacked."
 
-        <div class="hideme">
-          <div class="container">
-          <div class="row">
+              </pre> <br>
+            This will access the entire body tag of html and wipe whatever you had off the face of the earth o_o 
+            <br><br>
 
-            <div class="col-lg-2">
-            </div>
+            BUT if you wanna access something else, like the table of contents, you can do this: <br><br>
+              <pre>
 
-            <div class="col-lg-5">
-              <br><br><br>
-              <img src="https://i.ytimg.com/vi/wZnk1maUC9Q/sddefault.jpg" alt="quack">
-              <br><br><br>
-            </div>
+                var headingEl = document.getElementById("table");
 
-            <div class="col-lg-3">
-              <br><br><br>
-                <h3 class="proj">HTML/CSS NOTES</h3>
-                <h4 class="proj">HTML, CSS, JAVASCRIPT</h4>
-                <p> Umchina, a Korean term meaning "mom's friend's son," is used to describe a person who's better at everything than you are. Fish cough. Elvis Presley’s manager sold “I Hate Elvis” badges as a way to make money off of people who weren’t buying his merchandise. In Queensland, Australia, it's illegal to own a pet rabbit unless you're a magician.<br> <a href="https://heeeeeeeey.com/" class = "more">LEARN MORE</a> </p>
-                <br><br>
-              <br>
-            </div>
+                // since i set the id of the table of contents to be 'table'
+                // to change the content in the thing :
 
-            <div class="col-lg-2">
-            </div>
+                headingEl.innerHTML = "table of continents";
 
-          </div>
-          </div>
-        </div>
-
-        <div class="hideme">
-          <div class="container">
-          <div class="row">
-
-            <div class="col-lg-2">
-            </div>
-            
-            <div class="col-lg-3">
-                <h3 class="proj">GRADE CALCULATOR</h3>
-                <h4 class="proj">JAVA, SQL</h4>
-                <p> Maine is the U.S. state closest to Africa. According to the record holder for tallest waffle stack, Guinness World Records has a 40-page document defining what a waffle is. According to one study, dunking an Oreo in milk for three seconds gives you the optimal balance of sogginess and structural integrity. The first pair of Nike running shoes was made in a waffle iron.<br> <a href="http://www.staggeringbeauty.com/" class = "more">LEARN MORE</a> </p>
-              <br>
-            </div>
-
-            <div class="col-lg-5">
-              <br><br><br>
-              <img src="https://www.hdnicewallpapers.com/Walls/Big/Duck/White_Duck_Wallpaper.jpg" alt="quack">
-            </div>
-
-            <div class="col-lg-2">
-            </div>
-
-          </div>
-          </div>
-        </div>
-
-        <div class="hideme">
-          <div class="container">
-          <div class="row">
-
-            <div class="col-lg-2">
-            </div>
-
-            <div class="col-lg-5">
-              <br><br><br>
-              <img src="https://wallpaperaccess.com/full/2942730.jpg" alt="quack">
-            </div>
-
-            <div class="col-lg-3">
-                <h3 class="proj">ONO</h3>
+                // can put html tags in it 
+                headingEl.innerHTML = "table of &lt;em>continents&lt;/em>";
+                // adds em to the word continents
                 
-                <h4 class="proj">JAVA</h4>
-                <p> On Scooby-Doo, Shaggy’s real name is Norville Rogers. Bones found at Seymour Island indicate that, 37 to 40 million years ago, penguins stood at a formidable 6 feet tall and weighed 250 pounds. Queen Elizabeth II is a trained mechanic. Alaska is simultaneously the westernmost and easternmost state. Before he became President of the United States, Abraham Lincoln was a wrestling champion. <br> <a href="https://checkboxolympics.com/" class = "more">LEARN MORE</a> </p>
-              <br>
-            </div>
+              </pre> <br>
 
-            <div class="col-lg-2">
-            </div>
+            To access multiple DOM elements by class/tag name: <br><br>
+              <pre>
 
-          </div>
-          </div>
+                var nameEls = document.getElementsByTagName("span");
+                // getting via the tag span 
+
+                for (var i = 0; i < nameEls.length; i++) {
+                  nameEls[i].innerHTML = "cat";
+                }
+
+                // since there could be multiple elements 
+
+                var nameElems = document.getElementsByClassName("animal");
+                
+                for (var i = 0; i < nameElems.length; i++) {
+                    nameElems[i].innerHTML = "cat";
+                }
+
+                // use console.log to debug 
+              </pre> <br>
+            
+            To access elements by css selectors: <br><br>
+              <pre>
+                
+                var nameEls = document.querySelectorAll("p .animal");
+            
+                for (var i = 0; i < nameEls.length; i++) {
+                  nameEls[i].innerHTML = "cat";
+                }
+
+              </pre>
+
+            Changing attributes: <br><br>
+              <pre>
+                
+                var imageEls = document.getElementsByTagName("img");
+                for (var i = 0; i < imageEls.length; i++) {
+                    imageEls[i].src = "";
+                }
+
+                // over @ style.css
+                a[href*="Dog"] { 
+                  color: purple;
+                }
+                // attribute points to all links that has "Dog" in it 
+
+                var linkEls = document.querySelectorAll("a[href*=\"Dog\"]");
+                for (var i = 0; i < linkEls.length; i++) {
+                    linkEls[i].href = "";
+                }
+
+              </pre> <br>
+
+            Changing styles: <br><br>
+              <pre>
+                
+                var headingEl = document.getElementById("table");
+
+                headingEl.innerHTML = "table of continents";
+                headingEl.style.color = "white";
+
+                // for things like background-color, it isn't proper syntax. fix by camel casing: backgroundColor
+
+              </pre>
+            
+            Changing CSS Classes: <br><br>
+              <pre>
+
+                var headingEl = document.querySelector("#heading");
+                headingEl.className = "catcolors";
+                headingEl.style.textAlign = "center";
+                headingEl.innerHTML = "All about cats";
+
+                var nameEls = document.querySelectorAll("p .animal");
+                for (var i = 0; i < nameEls.length; i++) {
+                    nameEls[i].className = "catcolors";
+                    nameEls[i].innerHTML = "cat";
+                }
+
+                // adds class name so that we don't have to style it a billion times 
+                // will remove pre-existing classes 
+
+                nameEls[i].className += " catcolors"; 
+                nameEls[i].classList.add("catcolors");
+                // a lot safer
+
+                headingEl.textContent = "All about cats";
+                // literally puts everything you have, including the raw html tags, into the text lol
+              </pre>
+            
+            Creating elements from scratch: <br><br>
+              <pre>
+                
+                var catEl = document.createElement("img");
+                catEl.src = "https://www.kasandbox.org/programming-images/animals/cat.png";
+                catEl.alt = "Photo of cute cat";
+                document.body.appendChild(catEl);
+
+              </pre>
+          </p>
+      </section>
+
+      <section id = event-listener>
+        <p>
+          Adding event listener: <br><br>
+          <pre>
+
+            // 1. Find and store the element we want to listen to events on.
+            var clickerButton = document.getElementById("clicker");
+
+            // 2. Define the function that will respond to the event.
+            var onButtonClick = function() {
+                clickerButton.textContent = "Oh wow, you clicked me!";
+            };
+
+            // 3. Add the event listener for the element and function
+            clickerButton.addEventListener("click", onButtonClick);
+
+          </pre>
+          Using event properties: <br><br>
+          <em>Printing a message:</em> <br><br>
+          <pre>
+            
+            // 1. Find and store the element we want to listen to events on.
+            var face = document.getElementById("face");
+
+            // 2. Define the function that will respond to the event.
+            var onMouseMove = function() {
+                document.getElementById("message").textContent += "mooove ";  
+            };
+
+            // 3. Add the event listener for the element and function
+            face.addEventListener("mousemove", onMouseMove);
+
+          </pre>
+
+          <em>Drawing stuff</em> <br><br> 
+          <pre>
+
+            // 1. Find and store the element we want to listen to events on.
+            var face = document.getElementById("face");
+
+            // 2. Define the function that will respond to the event.
+            var onMouseMove = function(e) {
+                console.log(e);
+                document.getElementById("message").textContent += "mooove ";         var beard = document.createElement("div");
+                beard.className = "beard";
+                document.body.appendChild(beard);
+                beard.style.top = e.clientY + "px";
+                beard.style.left = e.clientX + "px";
+                
+            };
+
+            // 3. Add the event listener for the element and function
+            face.addEventListener("mousemove", onMouseMove);
+
+          </pre>
+
+          Processing forms with events: <br><br>
+
+          <p class = 'code'>
+            What's your name? [         ] (textbox) <br>
+            Select language you want to be greated in: [     ] (dropdown menu) <br>
+            Greet me! (button) <br><br>
+          </p>
+
+          <pre>
+
+            // Step 1: Find the element we want the event on
+            var button = document.getElementById("button");
+
+            // Step 2: Define the event listener function
+            var onButtonClick = function() {
+              var name = document.getElementById("name").value;
+              var lang = document.getElementById("lang").value;
+              var greeting;
+              if (lang === "es") {
+                  greeting = "Hola, " + name;
+              } else if (lang === "plt") {
+                  greeting = "Ello-hay, " + name;
+              } else {
+                  greeting = "Heyaz, " + name;
+              }
+              document.getElementById("message").textContent += greeting;  
+            };
+
+            // Step 3: Attach event listener to element
+            button.addEventListener("click", onButtonClick);
+
+          </pre>
+
+          Prevending default behaviour of events: <br><br>
+
+          <pre>
+
+            // We want to prevent new window to pop up when user clicks link...or, we want the audio to play in our current window
+
+            var ohnoesEl = document.getElementById("ohnoes");
+
+            // Step 2: Define the event listener function
+            var onOhNoesClick = function(e) {
+                e.preventDefault();
+                var audioEl = document.createElement("audio");
+                audioEl.src = "https://www.kasandbox.org/programming-sounds/rpg/giant-no.mp3";
+                audioEl.autoplay = "true";
+                document.body.appendChild(audioEl);
+            };
+
+            // Step 3: Attach event listener to element
+            ohnoesEl.addEventListener("click", onOhNoesClick);
+
+          </pre>
+
+        </p> <br>
+      </section>
+
+      <section id = animations>
+        <h3> animations. </h3>
+          <p>
+
+            The window object: <br><br>
+
+            <pre>
+
+              // ngl, don't know what this is useful for...
+
+              infoDiv.textContent += "The URL of this page is " + window.location.href;
+        
+              infoDiv.textContent += "The user agent is " + window.navigator.userAgent;
+              
+              infoDiv.textContent += " This webpage is " + window.outerWidth + " by " + window.outerHeight;
+
+            </pre>
+
+            Animating DOM with set interval: <br><br>
+
+            <pre>
+
+              // Step 1. What element do we want to animate?
+              var countdown = document.getElementById("countdown");
+
+              // Step 2. What function will change it each time?
+              var countItDown = function() {
+                countdown.textContent = parseFloat(countdown.textContent) - 1;  
+              };
+              
+              // Step 3: Call that on an interval
+              window.setInterval(countItDown, 1000);
+
+            </pre>
+
+            Animating styles with requestAnimationFrame: <br><br>
+
+            <pre>
+
+              // making a picture/thing grow as time goes on 
+
+              // Step 1. What element do we want to animate?
+              var ohnoes = document.getElementById("ohnoes");
+              ohnoes.style.width = "50px";
+              
+              // Step 2. What function will change it each time?
+              var startTime = new Date().getTime();
+              var makeItBigger = function() {
+                  var currTime = new Date().getTime();
+                  var newWidth = (50 + ((currTime - startTime)/1000) * 30);
+                  ohnoes.style.width = newWidth + "px";  
+                window.requestAnimationFrame(makeItBigger);
+              };
+              makeItBigger();
+
+            </pre>
+            
+            Animating styles with CSS animations: <br><br>
+
+            <pre>
+
+              // animating with css with no javascript 
+
+              @keyframes getbigger {
+                from {
+                    width: 50px;
+                }
+                
+                to {
+                    width: 300px;
+                }
+              }
+              
+              @-webkit-keyframes getbigger {
+                  from {
+                      width: 50px;
+                  }
+                  
+                  to {
+                      width: 300px;
+                  }
+              }
+              
+              #ohnoes {
+                  animation-name: getbigger;
+                  animation-duration: 3s;
+                  /* vendor prefixes */
+                  -webkit-animation-name: getbigger;
+                  -webkit-animation-duration: 3s;
+              }
+
+            </pre>
+
+          </p>
+
+      </section>
+
+      <section id = library>
+        <h3> using js libraries. </h3>
+
+        <p> Using a JS library: Slideshow library
+
+          <pre> 
+
+            var slideShow = function(container) {
+                this.images = [];
+                this.curImage = 0;
+                for (i = 0; i < container.childElementCount; i++) {
+                    this.images.push(container.children[i]);
+                    this.images[i].style.display = "none";
+                }
+                
+                // Handle going to to the next slide
+                var nextSlide = function() {
+                    for (var i = 0; i < this.images.length; i++) {
+                        this.images[i].style.display = "none";
+                    }
+                    this.images[this.curImage].style.display = "block";
+                    this.curImage++;
+                    if (this.curImage >= this.images.length) {
+                        this.curImage = 0;
+                    }
+                    window.setTimeout(nextSlide.bind(this), 1000);
+                };
+                
+                nextSlide.call(this);
+            };
+            slideShow(document.getElementById("slideshow"));
+
+          </pre>
+
+        </p>
+
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://i.pinimg.com/originals/52/40/45/5240452de06b36b3038e5ad728895257.png" style="width:100%">
+          <div class="text">Caption Text</div>
         </div>
 
-          <div class="container">
-          <div class="row">
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://i.pinimg.com/originals/9c/e3/3a/9ce33ac564e4925ed50879b543ec94fb.png" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
 
-            <div class="col-lg-2">
-            </div>
-            
-            <div class="col-lg-8">
-              <br><br><br>
-              <div class="hideme">
-                <h3>FROM THE ARCHIVE</h3>
-                <br>
-                <h4 class="archive">CONNECT 4</h4>
-                <h4 class="proj">JAVA</h4>
-                <p> Nostrils take turns receiving the majority of the air you breathe, which explains why one is usually stuffier than the other. <br> <a href="https://cant-not-tweet-this.com/" class = "more">LEARN MORE</a> </p>
-                <br><br>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://i.pinimg.com/originals/5c/6d/d0/5c6dd01100f4fd03cda0106fe0c3db35.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
 
-                <h4 class="archive">CONNECT 4</h4>
-                <h4 class="proj">C++</h4>
-                <p> Boring, Oregon and Dull, Scotland have been sister cities since 2012. In 2017, they added Bland Shire, Australia to their “League of Extraordinary Communities.” <br> <a href="https://mondrianandme.com/" class = "more">LEARN MORE</a> </p>
-                <br><br>
-              </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-              <div class="hideme">
-                <h4 class="archive">HANGMAN</h4>
-                <h4 class="proj">JAVA</h4>
-                <p> The first item sold on eBay was a broken laser pointer. <br> <a href="https://trypap.com/" class = "more">LEARN MORE</a> </p>
-                <br><br>
+        </div>
+        <br>
 
-                <h4 class="archive">SAMURAI STORY</h4>
-                <h4 class="proj">JAVA</h4>
-                <p> Nostrils take turns receiving the majority of the air you breathe, which explains why one is usually stuffier than the other. <br> <a href="http://corndog.io/" class = "more">LEARN MORE</a> </p>
-                <br><br>
-              <br>
-              </div>
-            </div>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </section>
 
-            <div class="col-lg-2">
-            </div>
-
-          </div>
-          </div>
-
-        </section>
       </div>
 
+    <div class="col-lg-2">
+
+      </div>
     <script src="script.js">
       
     </script>
-
-    <script src="assets/js/scrollfade.js"></script>
   </body>
 </html>
